@@ -9,7 +9,7 @@ direction = random(360);
 
 if (sprite_index == spr_rock_big){
 	sprite_index = spr_rock_small;
-	instance_copy(true); // Test Github
+	instance_copy(true);
 }
 else if(instance_number(obj_large_rock) < 12){
 	sprite_index = spr_rock_big;
